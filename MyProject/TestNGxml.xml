@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="YouNote">
+
+<listeners>
+		<listener class-name="com.YouNote.utilities.Reporting" />
+	</listeners>
+<test name="Login">
+<parameter name="browser" value="chrome"/>
+<classes>
+<!--  class name="com.YouNote.testcases.TC_LoginTest_001"/>-->
+<class name="com.YouNote.testcases.TC_LoginDDT_002"/>
+</classes>
+</test>
+</suite> 
